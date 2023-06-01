@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Encriptador</title>
+</head>
+
+<body>
+    <header>
+        <img class="logoAlura" src="/imagens/logoAlura.png" alt="Logo da Alura">
+    </header>
+
+        <main>
+            
+            <section> 
+                <textarea class="text-area" cols="41" rows="4" placeholder="Digite seu texto..."></textarea>
+        
+            <div class="informacao-img">
+                <img src="/imagens/atencao.png" align="left" alt="Atenção"></div>
+            <div class="informacao-txt">
+                <h6> Apenas letras minúsculas e sem acento</h6>
+            </div> 
+        
+                <div class="botoes"> 
+                    <button class="btn-encriptar" onclick="btnEncriptar()">Criptografar</button>
+                    <button class="btn-desencriptar" onclick="btnDesencriptar()">Descriptografar</button>
+                </div>          
+            </section>
+        
+            <section> 
+                <textarea class="mensagem" cols="20" rows="10"></textarea>
+                <button class="btn-copiar" onclick="btnCopiar()">Copiar</button>
+            </section>
+
+        </main>  
+
+        <script src="script.js"></script>
+
+        <footer>
+            <p>&copy; Copyleft - Dev. Jhonata Rodrigues</p>
+           
+                <p><div class="sociais">
+                <a href="https://www.linkedin.com/in/jhonata-rodrigues/" target="_blank" rel="external"><img src="imagens/linkedin.png"  width="17" height="17" alt="Logo Linkedin"></a>
+                <a href="https://github.com/jhonatadf" target="_blank" rel="external"><img src="imagens/github-mark.png"  width="17" height="17" alt="Logo GitHub"></a>
+                </p></div>
+
+            
+        </footer>
+        
+</body>
+</html>

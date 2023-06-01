@@ -1,0 +1,115 @@
+* {
+
+    background: #111111;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+
+}
+
+.logoAlura {
+    margin-left: 10px;
+    padding-top: 10px;
+    width: 2%;
+}
+
+main {
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 80px;
+}
+
+.text-area {
+    border: none;
+    color: #ffffff;
+    margin-top: 90px;
+    text-transform: lowercase;
+}
+
+::placeholder { color: #ffffff; }
+    .text-area:focus {
+        outline: none;
+    }
+
+.mensagem {
+    background: white;
+    background-image: url(/imagens/ianuclear2.png);
+    background-repeat: no-repeat;
+    border: none;
+    border-radius: 24px;
+    color: #ffffff;
+    margin-left: 98px;
+    margin-top: 20px;
+    padding-left: 20px;
+    position: fixed;
+
+}    
+.mensagem:focus {
+    outline: none;
+}
+
+.botoes {
+    display: flex;
+    margin-top: 18px;
+}
+
+.btn-desencriptar {
+    background: #D8DFE8;
+    border: 1px solid #0a7157;
+    border-radius: 24px;
+    color: #0a7157;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 30px;
+    width: 328px;
+}
+
+.btn-encriptar {
+    background-color: #0a7157;
+    border: 1px solid #ffffff;
+    border-radius: 24px;
+    color: white;
+    cursor: pointer;
+    height: 67px;
+    width: 328px;
+}
+
+.btn-copiar {
+    border: 1px solid #ffffff;
+    border-radius: 24px;
+    color: #ffffff;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 120px;
+    margin-top: 402px;
+    position: absolute;
+    width: 336px;
+}
+
+.informacao-img {
+    margin: -10px -20px -20px;
+
+}
+
+.informacao-txt {
+    color: #495057;
+    font-size: 18px;
+    margin-left: 13px;
+}
+
+.sociais {
+    display: flex;
+    margin: -3px 2px;
+    width: 10px;
+    height: 10px;
+}
+
+footer {
+    height: 150px;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+}
