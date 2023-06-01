@@ -34,7 +34,7 @@ main {
 
 .mensagem {
     background: black;
-    background-image: url(/imagens/ianuclear2.png);
+    background-image: url(./imagens/ianuclear2.png);
     background-repeat: no-repeat;
     border: none;
     border-radius: 24px;
