@@ -2,6 +2,7 @@ const textArea = document.querySelector(".text-area");
 const mensagem = document.querySelector(".mensagem");
 
 function btnEncriptar () {
+    mensagem.style.backgroundImage = "none";
     const textoEncriptado = encriptar(textArea.value);
     mensagem.value = textoEncriptado;
     textArea.value = "";
@@ -23,6 +24,7 @@ function encriptar (stringEncriptada) {
 }
 
 function btnDesencriptar () {
+    mensagem.style.backgroundImage = "none";
     const textoDesencriptado = desencriptar(textArea.value);
     mensagem.value = textoDesencriptado;
     textArea.value = "";
@@ -45,6 +47,7 @@ function desencriptar (stringDesencriptada) {
 
 function btnCopiar () {
     const texto = mensagem.value;
+    mensagem.style.backgroundImage = "";
     navigator.clipboard
       .writeText(texto)
       .then(() => {
