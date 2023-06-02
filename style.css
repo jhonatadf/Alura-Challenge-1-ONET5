@@ -113,3 +113,61 @@ footer {
     justify-content: center;
     font-size: 14px;
 }
+
+@media screen and (max-width:800px){
+    .logoAlura {
+        flex-direction:column; 
+        width:10%; 
+        height:10%;
+    }
+    .text-area {
+        margin:20px 0;
+        width: 90%;
+        height: 20vh;
+        font-size: 20px;
+        margin-left: -25px;
+    }
+    .informacao-txt{       
+        font-size: 10px;
+    }
+    .btn-encriptar {
+        height: 67px;
+        width: 130px;
+        font-size: 17px;
+        margin-left: -43px;
+    }
+
+    .btn-desencriptar {  
+        height: 67px;
+        width: 130px;
+        font-size: 13px; 
+        margin-left: 68px;
+    }
+
+    .btn-copiar {  
+        height: 67px;
+        width: 110px;
+        font-size: 13px; 
+        margin-top: 680px;
+        margin-left: -250px;
+        align-items: center;
+        display:block;
+    }
+
+    .mensagem {
+        width:80%;
+        font-size: 20px;
+        margin-top: 400px;
+        margin-left:-380px;
+        display:block;
+        align-items: center;
+        height: 30vh;
+        position: absolute
+    }
+
+    footer {
+        margin-top: 380px;
+        font-size: 13px;
+    }
+    
+}
